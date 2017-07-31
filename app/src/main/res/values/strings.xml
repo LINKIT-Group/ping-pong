@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PingPong</string>
+    <string name="start">Start</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+    <string name="speech_first_player">Who is first player?</string>
+    <string name="speech_second_player">Who is second player?</string>
+    <string name="speech_player_starts_the_game">%1$s starts the game</string>
+    <string name="speech_player_serves">It is time for %1$s to serve</string>
+    <string name="speech_crawl_warning">Be careful %1$s, you are going to crawl</string>
+    <string name="speech_set_point_for_player">Set point for %1$s</string>
+    <string name="speech_match_point_for_player">Match point for %1$s</string>
+    <string name="speech_player_wins_the_set">%1$s wins the set</string>
+    <string name="speech_player_wins_the_game">%1$s wins the game</string>
+
+
+</resources>

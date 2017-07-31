@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/MatchParent"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        style="@style/FillRemainingWidthMatchParent"
+        android:background="@color/firstBackground">
+
+        <LinearLayout
+            style="@style/GameScreen_PlayerBoard">
+
+            <ImageView
+                android:id="@+id/first_avatar_imageview"
+                style="@style/LargeAvatar" />
+
+            <TextView
+                android:id="@+id/first_name_textview"
+                style="@style/WrapContent.XXLargeSizeText.White" />
+
+            <TextView
+                android:id="@+id/first_score_textview"
+                style="@style/WrapContent.XXXLargeSizeText.White" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/first_service_imageview"
+            style="@style/Service" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/FillRemainingWidthMatchParent"
+        android:background="@color/secondBackground">
+
+        <LinearLayout
+            style="@style/GameScreen_PlayerBoard">
+
+            <ImageView
+                android:id="@+id/second_avatar_imageview"
+                style="@style/LargeAvatar" />
+
+            <TextView
+                android:id="@+id/second_name_textview"
+                style="@style/WrapContent.XXLargeSizeText.White" />
+
+            <TextView
+                android:id="@+id/second_score_textview"
+                style="@style/WrapContent.XXXLargeSizeText.White" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/second_service_imageview"
+            style="@style/Service" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

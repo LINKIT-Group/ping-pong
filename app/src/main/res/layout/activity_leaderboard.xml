@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/MatchParent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recycler_view"
+        style="@style/FillRemainingHeight" />
+
+    <Button
+        android:id="@+id/start_button"
+        style="@style/MatchParentWrapContent"
+        android:layout_margin="@dimen/generic_margin"
+        android:text="@string/start"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
+        android:visibility="visible"
+        />
+
+</LinearLayout>
+

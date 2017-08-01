@@ -1,0 +1,90 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="FillRemainingHeight">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FillRemainingWidthWrapContent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="FillRemainingWidthMatchParent">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="MatchParentWrapContent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="WrapContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="MatchParent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="WrapContent.XXLargeSizeText" parent="WrapContent">
+        <item name="android:textSize">@dimen/text_size_xxlarge</item>
+    </style>
+
+    <style name="WrapContent.XXLargeSizeText.White" parent="WrapContent.XXLargeSizeText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="WrapContent.XXXLargeSizeText" parent="WrapContent">
+        <item name="android:textSize">@dimen/text_size_xxxlarge</item>
+    </style>
+
+    <style name="WrapContent.XXXLargeSizeText.White" parent="WrapContent.XXXLargeSizeText">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="GameScreen_PlayerBoard" parent="WrapContent">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="LargeAvatar">
+        <item name="android:layout_width">@dimen/avatar_large_size</item>
+        <item name="android:layout_height">@dimen/avatar_large_size</item>
+        <item name="android:layout_marginBottom">@dimen/generic_margin</item>
+        <item name="android:layout_marginTop">@dimen/generic_margin</item>
+    </style>
+
+    <style name="SmallImage">
+        <item name="android:layout_width">@dimen/small_image_size</item>
+        <item name="android:layout_height">@dimen/small_image_size</item>
+    </style>
+
+    <style name="Service" parent="SmallImage">
+        <item name="android:layout_width">@dimen/small_image_size</item>
+        <item name="android:layout_height">@dimen/small_image_size</item>
+        <item name="android:src">@drawable/pingpong</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_margin">@dimen/generic_margin</item>
+    </style>
+
+
+
+</resources>
